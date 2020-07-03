@@ -1,0 +1,145 @@
+@media (max-width: 1024px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header-list {
+        margin: 0;
+        padding: 0 0 10px 0;
+    }
+}
+
+@media (max-width: 1080px) {
+    .top-wrapper .content {
+        width: 80%;
+    }
+
+    .bottom-wrapper {
+        width: 98%;
+        padding-left: 10px;
+    }
+
+    .card {
+        width: 48%;
+    }
+}
+
+@media (max-width: 678px) {
+    .top-wrapper .content {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .bottom-wrapper{
+        width: 100%;
+        padding: 0;
+    }
+
+    .card {
+        width: 97.5%;
+    }
+
+    .header {
+        flex-direction: row;
+        padding: 7px 10px;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .menu-icon {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1080px) {
+    
+    .container {
+        width: 100%;
+    }
+    .left {
+        width: auto;
+        float: none;
+        background-color: #89d0ff;
+        margin: 14px;
+    }
+    .middle {
+        width: auto;
+        float: none;
+        margin: 14px;
+    }
+    
+    .right {
+        clear: both;
+        padding: 1% 4%;
+        width: auto;
+        margin: 14px;
+        float: none;
+    }
+}
+
+@media (max-width: 780px) {
+    
+    .header, 
+    .footer{
+        text-align: center;
+    }
+    .left {
+        width: auto;
+        float: none;
+    }
+    
+    .middle {
+        width: auto;
+        float: none;
+    }
+    
+    .right {
+        width: auto;
+        float: none;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .header-logo {
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .header-logo > span {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    .left > h3 {
+        font-size: 18px;
+    }
+
+    .middle > h3 {
+        font-size: 18px;
+    }
+
+    .right-article1 h3 {
+        font-size: 18px;
+    }
+
+    .right-article2 h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+}
